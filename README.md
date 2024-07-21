@@ -1,6 +1,6 @@
 # Mateus_Javelin_Alpha_01_0
 
-# Scrapper do Memów
+# Scrapper do Memów z JEBZDZIDY
 
 ## Cel projektu
 
