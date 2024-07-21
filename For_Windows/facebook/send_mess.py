@@ -1,0 +1,47 @@
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
+from scrapper_getter.prepare_memes import (
+    get_images_from_meme_folder,
+    read_sended_memes,
+    copy_image_to_clipboard,
+    JSONListDictManager_for_sended_memes,
+    memes
+)
+
+
+def send_mess(driver, client_id):
+    wait = WebDriverWait(driver, 10)
+    print('Szukam...')
+
+    messesage_area_list = driver.find_elements(
+        By.XPATH, '//*[@aria-label="Wiadomość"]'
+    )
+    messesage_area = messesage_area_list[0]
+
+    get_images_from_meme_folder()
+    testing_memes = memes[0:3]
+
+    manager = JSONListDictManager_for_sended_memes(
+        'sended_memes' + client_id + '.json'
+    )
+
+    for meme in testing_memes:
+        try:
+            memes_to_check = read_sended_memes(client_id)
+        except:
+            print('BŁAD ODCZYTU MEME')
+
+        if meme not in memes_to_check['name_of_files']:
+            if 'mp4' not in meme:
+                copy_image_to_clipboard('memes/' + meme)
+                manager.add(meme)
+                messesage_area.send_keys(Keys.CONTROL, 'v')
+                time.sleep(2)
+                messesage_area.send_keys(Keys.ENTER)
+        else:
+            print('Juz wysłano te MEME')
+
+    print('Memy wysłane...')
