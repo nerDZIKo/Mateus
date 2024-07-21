@@ -10,11 +10,14 @@ Celem tego projektu jest stworzenie narzędzia do scrappowania memów z najpopul
 
 Podczas pracy nad projektem napotkałem kilka problemów, które wpływały na działanie aplikacji, zwłaszcza w środowisku Linuxowym:
 
-1. **Zawalanie dysku na Linuxie**: Program w trakcie działania generuje nadmierną ilość danych, co prowadzi do zajmowania całej przestrzeni dyskowej. Problem ten może być związany z nieoptymalnym zarządzaniem danymi lub błędami w kodzie, które prowadzą do nadmiernego zapisywania plików.
+1. **Problemy z przestrzenią dyskową na Linuxie**:
+   Program generuje nadmierną ilość danych, co prowadzi do zajmowania całej przestrzeni dyskowej. Ten problem jest szczególnie zauważalny na systemach Linux, gdzie nieoptymalne zarządzanie plikami może szybko prowadzić do pełnego dysku.
 
-2. **Błędne ścieżki katalogowe na Linuxie**: Napotkałem problemy związane z niepoprawnymi ścieżkami katalogowymi w środowisku Linux. Ścieżki, które działają na Windowsie, mogą nie działać poprawnie na Linuxie z powodu różnic w systemie plików i separatorach ścieżek.
+2. **Błędne ścieżki katalogowe na Linuxie**:
+   W kodzie pojawiły się problemy związane z niepoprawnymi ścieżkami katalogowymi, które działają poprawnie na Windowsie, ale powodują błędy na Linuxie. Różnice w systemach plików i separatorach ścieżek sprawiają, że kod wymaga dostosowania.
 
-3. **Brak testowania w środowisku Linux**: Projekt był testowany głównie na Windowsie, gdzie działał poprawnie. Dopiero po przeniesieniu na środowisko Linux pojawiły się problemy. Brak wcześniejszego testowania na Linuxie spowodował, że wiele problemów zostało zauważonych dopiero w późnym etapie rozwoju.
+3. **Brak testowania w środowisku Linux**:
+   Program został pierwotnie testowany tylko na systemie Windows, gdzie działał poprawnie.
 
 ## Jak uruchomić projekt
 
