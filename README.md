@@ -4,7 +4,11 @@
 
 ## Cel projektu
 
-Celem tego projektu jest stworzenie narzędzia do scrappowania memów z najpopularniejszej strony z memami, **JebzDzidy**, oraz wysyłania ich do określonej grupy ludzi przez Messengera. Projekt ma na celu automatyzację procesu zbierania i udostępniania memów, co może być przydatne dla osób zarządzających grupami lub fanpage'ami.
+Celem tego projektu jest stworzenie narzędzia do scrappowania memów z najpopularniejszej strony z memami, **JebzDzidy**, oraz wysyłania ich do określonej grupy ludzi przez Messengera. Projekt ma na celu automatyzację procesu zbierania i udostępniania memów, co może być przydatne dla osób zarządzających grupami lub fanpage'ami. Projekt został stworzony z myślą o przyjacielu, który uwielbia tę stronę z memami, ale nie chce tracić czasu na przeszukiwanie i scrollowanie nieśmiesznych treści. 
+
+## Kontekst realizacji projektu
+
+Projekt był tworzony w trakcie bycia w stosunku pracy, co wiązało się z nieregularnymi godzinami pracy i dynamicznym zespołem. Czas pracy był zmienny, co wpłynęło na tempo i sposób realizacji projektu. Z tego powodu projekt mógł nie być dopracowany w każdym detalu, a testowanie i optymalizacja mogły zostać zrealizowane w ograniczonym zakresie.
 
 ## Problemy napotkane podczas realizacji projektu
 
