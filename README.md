@@ -8,7 +8,7 @@ Celem tego projektu jest stworzenie narzędzia do scrappowania memów z najpopul
 
 ## Kontekst realizacji projektu
 
-Projekt był tworzony w trakcie bycia w stosunku pracy, co wiązało się z nieregularnymi godzinami pracy. Czas pracy był zmienny, co wpłynęło na tempo i sposób realizacji projektu. Z tego powodu projekt mógł nie być dopracowany w każdym detalu, a testowanie i optymalizacja mogły zostać zrealizowane w ograniczonym zakresie.
+Projekt był tworzony w trakcie bycia w stosunku pracy, co wiązało się z nieregularnymi godzinami. Czas pracy był zmienny, co wpłynęło na tempo i sposób realizacji projektu. Z tego powodu projekt mógł nie być dopracowany w każdym detalu, a testowanie i optymalizacja mogły zostać zrealizowane w ograniczonym zakresie.
 
 ## Problemy napotkane podczas realizacji projektu
 
