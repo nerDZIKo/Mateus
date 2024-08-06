@@ -32,4 +32,4 @@ Podczas pracy nad projektem napotkałem kilka problemów, które wpływały na d
 
 1. Klonuj repozytorium:
    ```sh
-   git clone https://github.com/Mateus_Javelin_Alpha_01_0
+   git clone https://github.com/Mateus
