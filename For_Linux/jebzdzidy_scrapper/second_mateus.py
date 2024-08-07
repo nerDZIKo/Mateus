@@ -97,7 +97,6 @@ def save_data(data):
 def download_memes(memes):
     print("Downloading memes...")
     dirname = os.path.dirname(os.path.abspath(__file__))
-    # path = os.path.join(dirname, 'memes')
     path ='./memes'
     os.makedirs(path, exist_ok=True)
     
