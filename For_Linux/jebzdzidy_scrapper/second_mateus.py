@@ -7,7 +7,6 @@ import random
 import pprint
 import time
 
-# URL strony z memami
 def scrape_memes():
     base_url = "https://jbzd.com.pl/str/"
     posts = []
